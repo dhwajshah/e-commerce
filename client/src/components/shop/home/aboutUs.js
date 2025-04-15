@@ -1,8 +1,6 @@
 // ./shop/aboutUs/AboutUs.js
 
 import React, { Fragment } from 'react';
-import ProductCategory from './ProductCategory';
-import Slider from './Slider';
 import Layout from '../layout';
 const AboutUs = () => {
   return (

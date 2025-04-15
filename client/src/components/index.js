@@ -15,6 +15,7 @@ import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./shop/dashboardUser";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from "./shop/home/contactUs";
 
 /* Routing All page will be here */
 const Routes = (props) => {
@@ -26,6 +27,7 @@ const Routes = (props) => {
         <Route exact path="/wish-list" component={WishList} />
         <Route exact path="/products/:id" component={ProductDetails} />
         <Route exact path="/about-us" component={AboutUs} />
+        <Route exact path="/contact-us" component={Contact} />
 
         <Route
           exact

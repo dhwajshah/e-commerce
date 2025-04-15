@@ -11,6 +11,7 @@ import ProductDetails from "./productDetails";
 import ProductByCategory from "./home/ProductByCategory";
 import CheckoutPage from "./order/CheckoutPage";
 import AboutUs from "./home/aboutUs";
+import ContactUs from "./home/contactUs";
 
 export {
   Home,
@@ -28,4 +29,5 @@ export {
   ProductByCategory,
   CheckoutPage,
   AboutUs,
+  ContactUs,
 };
